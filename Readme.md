@@ -1,29 +1,15 @@
 # Проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Aleksey Zaytsev](https://htmlacademy.ru/profile/id90516).
-* Наставник: Гоша Егорян (https://htmlacademy.ru/profile/id85633).
+* Наставник: [Гоша Егорян](https://htmlacademy.ru/profile/id85633).
 
 ### Немного о себе
 
 ###### Вы прошли интенсивный онлайн-курс «Базовый HTML и CSS»?
-<<<<<<< HEAD
-<<<<<<< HEAD
-Да, успешно
-
-###### Вы прошли интенсивный онлайн-курс «Базовый JavaScript»?
-Да, успешно
-=======
 Да, успешно.
 
 ###### Вы прошли интенсивный онлайн-курс «Базовый JavaScript»?
 Нет, я сразу записался на продвинутый.
->>>>>>> up-htmlacademy/master
-=======
-Да, успешно.
-
-###### Вы прошли интенсивный онлайн-курс «Базовый JavaScript»?
-Нет, я сразу записался на продвинутый.
->>>>>>> up-htmlacademy/master
 
 ---
 
