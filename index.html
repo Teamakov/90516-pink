@@ -20,9 +20,9 @@
       <nav class="main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__item"><a class="main-nav__link" href="#">Информация</a></li>
-          <li class="main-nav__item"><a href="#">Блог</a></li>
-          <li class="main-nav__item"><a href="#">Отзывы</a></li>
-          <li class="main-nav__item"><a href="#">Конкурс</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Блог</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Отзывы</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Конкурс</a></li>
         </ul>
       </nav>
     </div>
@@ -31,40 +31,34 @@
   <!-- Content -->
   <main class="main-content">
 
-    <!-- Promo section -->
-    <section class="promo">
-      <div class="promo-wrapper">
-        <p class="promo-wrapper__title">Взгляните на жизнь иначе!</p>
+    <div class="promo">
+      <h2 class="promo__title">Взгляните на жизнь иначе!</h2>
+      <a class="promo__buttom" href="#">Скачать приложение</a>
+      <div class="promo-download">
+        <img class="promo-download__icon" src="#" width="" height="" alt="Apple"</img>
+        <img class="promo-download__icon" src="#" width="" height="" alt="Android"</img>
+        <img class="promo-download__icon" src="#" width="" height="" alt="Windows"</img>
       </div>
-
-      <!-- Download buttons -->
-      <section class="promo-download">
-        <a class="promo-download__main-link" href="#">Скачать приложение</a>
-        <div class="promo-download__buttons">
-          <a class="promo-download__button promo-download__button--apple" href="#">Apple</a>
-          <a class="promo-download__button promo-download__button--android" href="#">Android</a>
-          <a class="promo-download__button promo-download__button--winphone" href="#">Windows Phone</a>
-        </div>
-        <p class="promo-download__text">Доступно для iPhone, iPad, Android, Windows Phone, Mac OS, Windows 8</p>
-      </section>
-    </section>
+      <p class="promo__information">Доступно для iPhone, iPad, Android, Windows Phone, Mac OS, Windows 8</p>
+    </div>
 
     <!-- App offers -->
     <section class="offer">
-      <p class="offer__text">Устали от серости мегаполиса? Нам есть, что вам предложить!</p>
-     </section>
+      <h2 class="offer__text">Устали от серости мегаполиса?</h2>
+      <h2 class="offer__text">Нам есть, что вам предложить!</h2>
+    </section>
 
     <!-- App features -->
     <section class="features">
-      <div class="features__item features__item--first">
+      <div class="features__item">
         <p class="features__title">Поднимает настроение</p>
         <p class="features__text">Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
       </div>
-      <div class="features__item features__item--second">
+      <div class="features__item">
         <p class="features__title">Меняет мир вокруг</p>
         <p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
       </div>
-      <div class="features__item features__item--third">
+      <div class="features__item">
         <p class="features__title">Заводит новых друзей</p>
         <p class="features__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
       </div>
@@ -74,8 +68,7 @@
     <section class="research">
       <div class="research__block">
         <div class="research__title">Эффект на 24 часа!</div>
-        <p class="research__description">Британские ученые провели исследования и доказали, что положительный эффект от
-        использования приложения длится целые сутки!</p>
+        <p class="research__description">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
         <a class="research__link" href="#">Узнать больше об исследовании</a>
       </div>
     </section>
@@ -86,20 +79,17 @@
         <article class="review__item--active">
           <p class="review__full-name">Николай Петров</p>
           <p class="review__description">25 лет, водитель трамвая</p>
-          <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
-          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
+          <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
         </article>
         <article class="review__item">
           <p class="review__full-name">Петр Васечкин</p>
           <p class="review__description">25 лет, водитель трамвая</p>
-          <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
-          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
+          <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
         </article>
         <article class="review__item">
           <p class="review__full-name">Василий Николаев</p>
           <p class="review__description">25 лет, водитель трамвая</p>
-          <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
-          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
+          <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
         </article>
       </div>
       <span class="slider__review-toggle slider__review-toggle--prev"></span>
@@ -166,7 +156,7 @@
         </div>
         <div class="contacts__item contacts__item--email">
           <p class="contacts__item-header">Пишите:</p>
-          <a class="contacts__item-text contacts__item-text--email" href="mailto:info@htmlacademy.ru<"/a>
+          <a class="contacts__item-text contacts__item-text--email" href="mailto:info@htmlacademy.ru"</a>
         </div>
         <div class="contacts__item contacts__item--address">
           <p class="contacts__item-header">Приезжайте в гости:</p>
@@ -176,7 +166,7 @@
           </p>
          </div>
        </div>
-      </section>
+    </section>
 
       <!-- Map -->
       <div class="contacts__map"></div>
@@ -185,17 +175,19 @@
 
   <!-- Footer -->
   <footer class="main-footer">
-    <a class="main-footer__logo" href="#"><img src="#" width="" height="" alt="Pink"></a>
+   <div class="main-footer__logo">
+     <a class="main-footer__link" href="#">
+       <img src="#" width="" height="" alt="Pink">
+     </a>
+    </div>
     <div class="social-links">
       <a class="social-links__btn social-links__btn--twitter" href="#">Twitter</a>
       <a class="social-links__btn social-links__btn--fb" href="#">Facebook</a>
       <a class="social-links__btn social-links__btn--youtube" href="#">YouTube</a>
     </div>
-    <div class="main-footer__copyright">
-      <p class="main-footer__copyright-text">Website by
-      <a class="main-footer__copyright-icon" href="#" width="" height="">
-      for
-      <a class="main-footer__copyright-icon" href="https://htmlacademy.ru/" width="" height="">HTML Academy</a>
+    <div class="copyright">
+      <p class="copyright__text">Разработано</p>
+      <a class="copyright__link">HTML Academy</a>
     </div>
   </footer>
 </body>
