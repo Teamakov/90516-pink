@@ -1,7 +1,7 @@
 # Проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Aleksey Zaytsev](https://htmlacademy.ru/profile/id90516).
-* Наставник: Гоша Егорян (https://htmlacademy.ru/profile/id85633).
+* Наставник: [Гоша Егорян](https://htmlacademy.ru/profile/id85633).
 
 ### Немного о себе
 
